@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700,800');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+	font: 300 17px/1.6 Raleway, Arial, sans-serif;
+	color:  #262626;
+}
+
+/* Layout */
+
+
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1260px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.4;
+	text-decoration: none;
+	padding: 14px 25px;
+	border: 1px solid transparent;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-fresh{
+	background: #f9f8fb url(img/bg.jpg) no-repeat 50%;
+	background-size: cover;
+}
+
+
+
+.ba-fresh__intro{
+padding: 35px 13px;
+
+}
+ .ba-logo{
+ 	float: left;
+
+ }
+ .ba-logo svg{
+ 	display: block;
+ 	top: 0;
+ }
+ .ba-nav{
+ 	float: right;
+ 	margin-top: 17px;
+
+ }
+ .ba-menu{
+ 	padding: 0;
+ 	margin: 0;
+ 	list-style: none;
+ }
+ .ba-menu li{
+ 	display: inline-block;
+ 	position: relative;
+ }
+ .ba-menu a{
+ 	color:  #262626;
+ 	font-size: 16px;
+ 	font-weight: 700;
+ 	text-decoration: none;
+ 	margin-left: 16px;
+ 	margin-right: 16px;
+ 	letter-spacing: 0.019em;
+
+ }
+ .ba-menu li:first-child:before{
+ 	content: '';
+ 	background-color:  #ff6033;
+ 	width: 62%;
+ 	height: 3px;
+ 	display: inline-block;
+ 	position: absolute;
+ 	bottom: 30px;
+ 	left: 15px;
+ }
+ .ba-menu li:not(:first-child):hover:before{
+ 	content: '';
+ 	background-color: rgba(255, 96, 51, 0.3);
+ 	width: 62%;
+ 	height: 3px;
+ 	display: inline-block;
+ 	position: absolute;
+ 	bottom: 30px;
+ 	left: 15px;
+ }
+ .ba-menu li:nth-child(3):hover:before,
+ .ba-menu li:last-child:hover:before,
+ .ba-menu li:nth-child(4):hover:before{
+ 	content: '';
+ 	background-color: rgba(255, 96, 51, 0.3);
+ 	width: 71%;
+ 	height: 3px;
+ 	display: inline-block;
+ 	position: absolute;
+ 	bottom: 30px;
+ 	left: 15px;
+ }
+ .ba-menu li:nth-child(2):hover:before{
+ 	content: '';
+ 	background-color: rgba(255, 96, 51, 0.3);
+ 	width: 66%;
+ 	height: 3px;
+ 	display: inline-block;
+ 	position: absolute;
+ 	bottom: 30px;
+ 	left: 15px;
+ }
+
+.ba-fresh__header{
+	margin-bottom: 197px;
+}
+.ba-fresh__info{
+	float: left;
+	width: 32%;
+}
+.ba-fresh__title{
+	font-size: 60px;
+	font-weight: 800;
+	margin-bottom: 0;
+	letter-spacing: 0.018em;
+}
+.ba-fresh__info p{
+margin: 3px 1px 25px 5px;
+}
+.ba-button__fresh{
+	background-color:  #ff6033;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.ba-button__fresh:hover{
+	color:  #ff6033;
+	background-color:  #f9f8fb;
+	border-color: #ff6033;
+}
+.ba-fresh__main{
+	position: relative;
+	padding-bottom: 368px;
+}
+.ba-skroll{
+	position: absolute;
+	bottom: 34px;
+	left: 49%;
+	width: 24px;
+	height: 40px;
+	margin-left: -8px;
+	background: url(img/scroll.png);
+}
+.ba-skroll:hover{
+	opacity: .6;
+}
+
+.ba-about{
+	background: #00afaf url(img/bg2.jpg)no-repeat 50%;
+	// background-size: cover;
+}
+.ba-about__info{
+	padding-top: 180px;
+	padding-bottom: 210px;
+	padding-right: 32px;
+	color: #FFF;
+	height: 100%;
+
+}
+.ba-about__title{
+	font-size: 90px;
+	font-weight: 700;
+	line-height: 0.3;
+}
+.ba-about__main{
+	float: right;
+	width: 42%;
+}
+.ba-about__title{
+	margin-top: 23px;
+	margin-bottom: 45px;
+}
+.ba-about__main p:last-of-type{
+	margin-top: 0;
+}
+.ba-about__main p:first-of-type{
+	margin-bottom: 11px;
+}
