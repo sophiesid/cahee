@@ -118,7 +118,7 @@ body, html {
 	clear: both;
 }
 .ba-grid{
-	margin-left: -30px;
+	margin-left: -40px;
 }
 .ba-grid + .ba-grid{
 	margin-top: 30px;
